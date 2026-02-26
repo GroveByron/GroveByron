@@ -1,0 +1,149 @@
+﻿@model Byron_CV.Models.CvModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #000; 
+        background-color: #f7f7f7; 
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 2rem auto;
+        background-color: #fff; 
+        padding: 2rem 3rem;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05); 
+    }
+
+    .text-center h1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+    }
+
+    .text-center h4 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .text-center p a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #ddd;
+        margin: 2rem 0;
+    }
+
+    .section-title {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 3px;
+    }
+
+    .experience, .education {
+        margin-bottom: 1.5rem;
+    }
+
+        .experience h5, .education h5 {
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .experience small, .education small {
+            font-style: italic;
+            color: #555;
+        }
+
+        .experience p, .education p {
+            margin-top: 0.3rem;
+        }
+
+    ul.skills {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+    }
+
+        ul.skills li {
+            margin-bottom: 0.3rem;
+        }
+
+    .experience:nth-child(odd),
+    .education:nth-child(odd) {
+        background-color: #f9f9f9;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="text-center mb-4">
+        <h1>@Model.PersonalInfo.FullName</h1>
+        <h4>@Model.PersonalInfo.JobTitle</h4>
+        <p>
+            @Model.PersonalInfo.Email |
+            @Model.PersonalInfo.Phone |
+            <a href="@Model.PersonalInfo.GitHub" target="_blank">GitHub</a>
+        </p>
+    </div>
+
+    <hr />
+
+    <h3 class="section-title">Professional Summary</h3>
+    <p>@Model.PersonalInfo.ProfessionalSummary</p>
+
+    <hr />
+
+    <h3 class="section-title">Work Experience</h3>
+    @foreach (var exp in Model.Experiences)
+    {
+        <div class="experience">
+            <h5>@exp.JobTitle - @exp.CompanyName</h5>
+            <small>@exp.StartDate.ToString("MMM yyyy") - @(exp.EndDate.HasValue? exp.EndDate.Value.ToString("MMM yyyy") : "Present")</small>
+            <p>@exp.Description</p>
+        </div>
+    }
+
+    <hr />
+
+    <h3 class="section-title">Education</h3>
+    @foreach (var edu in Model.Educations)
+    {
+        <div class="education">
+            <h5>@edu.Qualification</h5>
+            <strong>@edu.University</strong><br />
+            <small>@edu.StartDate.Year - @edu.EndDate.Year</small>
+        </div>
+    }
+
+    <hr />
+
+    <h3 class="section-title">Skills</h3>
+    <ul class="skills">
+        @foreach (var skill in Model.Skills)
+        {
+            <li>@skill.SkillName</li>
+        }
+    </ul>
+
+</div>

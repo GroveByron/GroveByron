@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|c:\\users\\lab_services_student\\desktop\\byron-cv\\byron-cv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|solutionrelative:byron-cv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|c:\\users\\lab_services_student\\desktop\\byron-cv\\byron-cv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|solutionrelative:byron-cv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|c:\\users\\lab_services_student\\desktop\\byron-cv\\byron-cv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|solutionrelative:byron-cv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|c:\\users\\lab_services_student\\desktop\\byron-cv\\byron-cv\\models\\cvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B35B89-3B8F-A396-3EB6-2834C81A7ACF}|Byron-CV\\Byron-CV.csproj|solutionrelative:byron-cv\\models\\cvmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Byron-CV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Byron-CV\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T23:33:46.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Byron-CV\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Byron-CV\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:35:16.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CvModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Models\\CvModel.cs",
+              "RelativeDocumentMoniker": "Byron-CV\\Models\\CvModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Models\\CvModel.cs",
+              "RelativeToolTip": "Byron-CV\\Models\\CvModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:33:54.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Program.cs",
+              "RelativeDocumentMoniker": "Byron-CV\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Byron-CV\\Byron-CV\\Program.cs",
+              "RelativeToolTip": "Byron-CV\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T22:25:41.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
